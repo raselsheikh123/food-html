@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Food</title>
 </head>
@@ -48,7 +50,17 @@
             <div class="revipie-box-width">
                 <div class="d-flex">
                     <div class="recipie-box">
-                        <img src="assets/img/Project-Cover.jpg" alt="">
+                        <div id="owl-demo" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="assets/img/Project-Cover.jpg" alt="The Last of us">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img//Project-Cover.png" alt="The Last of us">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/Project-Cover2.jpg" alt="The Last of us">
+                            </div>
+                        </div>
                         <h1>Recipie Title</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
                     </div>
@@ -100,7 +112,7 @@
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/jquery.flexslider.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
