@@ -25,9 +25,11 @@ h1 {
 /**** header area ****/
 .header-area, .about-me {
   padding: 80px 0px;
+  overflow: hidden;
 }
 
 .header-area .header-left, .about-me .header-left {
+  width: 50%;
   padding-top: 100px;
 }
 
@@ -67,6 +69,15 @@ h1 {
   background-image: -webkit-gradient(linear, left top, right top, from(#FF1E1E), to(#FBA24F));
   background-image: linear-gradient(90deg, #FF1E1E, #FBA24F);
   opacity: .8;
+}
+
+.header-area .header-right, .about-me .header-right {
+  width: 50%;
+}
+
+.header-area .header-right img, .about-me .header-right img {
+  width: 80%;
+  float: right;
 }
 
 .about-me {

@@ -25,4 +25,14 @@ $(document).ready(function(){
          
         });
 
+        $('#lk').owlCarousel({
+            loop:true,
+            nav:false,
+            margin:10,
+            centered: true,
+            autoplay:true,
+            autoplayTimeout:2500,
+            items: 1
+        })
+
 });
